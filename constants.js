@@ -55,7 +55,7 @@ const quickenVenmoColumnMap = {
   id: 'Unique Trans. ID',
   date: 'Date',
   note: 'Memo',
-  name: 'Name',
+  [ComputedVenmoHeaders.PAYEE]: 'Name',
   amount: 'Amount',
   fee: 'fee',
   source: 'Account Type',
